@@ -6,6 +6,7 @@ This application demonstrates Stack operations such as PUSH, PEEK and POP using 
 * Support for configurable Stack size parameter using properties file
 * Support for generic Stack element (currently initialized as Integer stack for demonstration)
 * Thread safe Stack operations
+* Swagger UI for Stack operations
 * Unit test for Stack operations
 * Thread safe unit test
 * Controller API integration test
