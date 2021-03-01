@@ -1,0 +1,5 @@
+FROM openjdk:8-jdk-alpine
+EXPOSE 8081
+ARG JAR_FILE=staging/restful-stack-latest.jar
+ADD ${JAR_FILE} restful-stack-latest.jar
+ENTRYPOINT ["java","-jar","/restful-stack-latest.jar"]
